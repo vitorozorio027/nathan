@@ -3,44 +3,134 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <link rel="stylesheet" href="assets/css/alunos.css">
 <section class="home-section">
-    <div class="text">Alunos</div>
+    <div class="text">Cadastro de Alunos</div>
     <div id="divBusca">
-        <input type="text" id="txtBusca" placeholder="Buscar..."/>
-        <i class="fas fa-search"></i>
-    </div>
+  <input type="text" id="txtBusca" placeholder="Buscar..."/>
+  <i class="fas fa-search"></i>
+</div>
     <button class="btn btn-add" data-toggle="modal" data-target="#exampleModal">+ NOVO</button>
     <div class="table-wrapper">
         <table class="table table-striped table-fixed">
             <thead class="thead">
-                <tr>
-                    <th>Nome</th>
-                    <th>CPF</th>
-                    <th>Matrícula</th>
-                    <th>Turma</th>
-                    <th>Senha</th>
-                    <th>Telefone</th>
-                    <th>Email</th>
-                    <th>Ações</th> <!-- Nova coluna para as ações -->
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Exemplo de dados, você pode substituir pelos seus próprios -->
-                <tr>
-                    <td>João Silva</td>
-                    <td>123.456.789-00</td>
-                    <td>202401</td>
-                    <td>A</td>
-                    <td>senha123</td>
-                    <td>(12) 3456-7890</td>
-                    <td>joao.silva@example.com</td>
-                    <td>
-                        <button type="button" class="btn btn-primary btn-small"><i class="fas fa-edit"></i></button>
-                        <button type="button" class="btn btn-danger btn-small"><i class="fas fa-trash-alt"></i></button>
-                    </td>
-                </tr>
-                <!-- Outros dados aqui -->
-            </tbody>
-        </table>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Matrícula</th>
+                        <th>Turma</th>
+                        <th>Senha</th>
+                        <th>Telefone</th>
+                        <th>Email</th>
+                        <th>Ações</th> <!-- Nova coluna para as ações -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João Silva</td>
+                        <td>123.456.789-00</td>
+                        <td>202401</td>
+                        <td>A</td>
+                        <td>senha123</td>
+                        <td>(12) 3456-7890</td>
+                        <td>joao.silva@example.com</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-small"  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="btn btn-danger btn-small"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Maria Oliveira</td>
+                        <td>987.654.321-00</td>
+                        <td>202402</td>
+                        <td>B</td>
+                        <td>abcde456</td>
+                        <td>(34) 5678-9012</td>
+                        <td>maria.oliveira@example.com</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="btn btn-danger btn-small"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Santos</td>
+                        <td>456.789.123-00</td>
+                        <td>202403</td>
+                        <td>C</td>
+                        <td>senha12345</td>
+                        <td>(56) 7890-1234</td>
+                        <td>carlos.santos@example.com</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="btn btn-danger btn-small"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ana Pereira</td>
+                        <td>321.654.987-00</td>
+                        <td>202404</td>
+                        <td>D</td>
+                        <td>pereira789</td>
+                        <td>(78) 9012-3456</td>
+                        <td>ana.pereira@example.com</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="btn btn-danger btn-small"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Souza</td>
+                        <td>789.123.456-00</td>
+                        <td>202405</td>
+                        <td>E</td>
+                        <td>souza987</td>
+                        <td>(90) 1234-5678</td>
+                        <td>pedro.souza@example.com</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="btn btn-danger btn-small"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fernanda Lima</td>
+                        <td>654.321.987-00</td>
+                        <td>202406</td>
+                        <td>F</td>
+                        <td>lima123</td>
+                        <td>(01) 2345-6789</td>
+                        <td>fernanda.lima@example.com</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="btn btn-danger btn-small"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Souza</td>
+                        <td>789.123.456-00</td>
+                        <td>202405</td>
+                        <td>E</td>
+                        <td>souza987</td>
+                        <td>(90) 1234-5678</td>
+                        <td>pedro.souza@example.com</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="btn btn-danger btn-small"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Souza</td>
+                        <td>789.123.456-00</td>
+                        <td>202405</td>
+                        <td>E</td>
+                        <td>souza987</td>
+                        <td>(90) 1234-5678</td>
+                        <td>pedro.souza@example.com</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
+                            <button type="button" class="btn btn-danger btn-small"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </section>
 <!-- Modal -->
